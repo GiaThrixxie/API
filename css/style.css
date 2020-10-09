@@ -1,0 +1,63 @@
+/**
+ * file: style.css
+ **/
+body, pre {
+    font: 20px/18px Didot, Times New Roman, serif;
+    /*font size / line height, font family (Arial, sans-serif), (font weight)*/
+}
+
+body {
+    background-image: url(../images/110-1100849_halloween-vector-free-png-border-halloween.png), url(../images/6370275_preview.png);
+    background-position: center top, center bottom;
+    background-repeat: repeat-x;
+}
+
+html, body, main {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #ea6628;
+}
+
+h1, h2, h3, h4, h5, h6, h7, p, pre {
+    color: orange;
+}
+
+#result {
+    width: 100%;
+    
+}
+
+#weather {
+    background-color: rebeccapurple;
+    border-radius: 6px;
+    border-style: dotted;
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+    margin: 2em;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#result {
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    padding-top: 250px;
+    text-align: center;
+    text-shadow: 0 0 5px #FF0000, 0 0 10px #0000FF;
+    margin-bottom: 2em;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+}
